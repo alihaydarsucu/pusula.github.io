@@ -471,8 +471,8 @@ a:hover {
     transition: transform 0.5s ease;
 }
 
-.project-card:hover .project-img img {
-    transform: scale(1.1);
+.project-card:hover  {
+    transform: scale(1.05);
 }
 
 .project-content {
