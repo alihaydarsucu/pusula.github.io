@@ -960,6 +960,12 @@ textarea.form-control {
     .contact-item {
         margin-bottom: 20px;
     }
+
+    .projects-container {
+        grid-template-columns: 1fr; /* Tek sütun yap */
+        gap: 20px;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
