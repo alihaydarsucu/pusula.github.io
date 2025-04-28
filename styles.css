@@ -626,6 +626,7 @@ a:hover {
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 40px;
+    align-items: stretch; /* Kartların yüksekliklerini eşitler */
 }
 
 .package-card {
@@ -637,6 +638,8 @@ a:hover {
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
 }
 
 .gold {
@@ -661,10 +664,15 @@ a:hover {
     color: var(--bright-yellow);
 }
 
+.package-content {
+    flex-grow: 1; /* İçeriği esnek yapar ve butonu alta iter */
+}
+
 .package-content ul {
     text-align: left;
     list-style-position: inside;
     margin: 25px 0;
+    padding-left: 0;
 }
 
 .package-content li {
@@ -677,6 +685,12 @@ a:hover {
     content: '✓';
     color: var(--bright-yellow);
     margin-right: 8px;
+}
+
+.package-card .btn {
+    margin-top: auto; /* Butonu en alta sabitler */
+    align-self: center; /* Butonu yatayda ortalar */
+    width: fit-content; /* Buton genişliğini içeriğe göre ayarlar */
 }
 
 /* İletişim */
