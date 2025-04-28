@@ -5,6 +5,8 @@
 
 🌊 The official website for **Pusula USV** (Unmanned Surface Vehicle) Team - a group of engineering students developing cutting-edge marine technologies.
 
+For now it is accessible from here: [Pusula Website](https://alihaydarsucu.github.io/pusula.github.io/)
+
 ## ✨ Features
 
 | Section              | Description                                       |
