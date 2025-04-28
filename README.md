@@ -8,13 +8,13 @@
 ## ✨ Features
 
 | Section              | Description                                       |
-| -------------------- | ------------------------------------------------- | -------------------------------------- |
-| 🎯 **Hero Section**  | Engaging introduction with call-to-action buttons | <i class="fas fa-home"></i>            |
-| 🏆 **Achievements**  | Showcase of awards and recognitions               | <i class="fas fa-trophy"></i>          |
-| 👥 **Team Profiles** | Interactive team member cards with social links   | <i class="fas fa-users"></i>           |
-| 🚤 **Projects**      | Featured projects with tags and descriptions      | <i class="fas fa-project-diagram"></i> |
-| 🤝 **Sponsors**      | Sponsor showcase with package tiers               | <i class="fas fa-handshake"></i>       |
-| 📧 **Contact**       | Functional contact form and information           | <i class="fas fa-envelope"></i>        |
+| -------------------- | ------------------------------------------------- |
+| 🎯 **Hero Section**  | Engaging introduction with call-to-action buttons |
+| 🏆 **Achievements**  | Showcase of awards and recognitions               |
+| 👥 **Team Profiles** | Interactive team member cards with social links   |
+| 🚤 **Projects**      | Featured projects with tags and descriptions      |
+| 🤝 **Sponsors**      | Sponsor showcase with package tiers               |
+| 📧 **Contact**       | Functional contact form and information           |
 
 ### 🛠️ Technical Features
 
@@ -47,16 +47,6 @@ pusula-usv-website/
 │   └── 📂 Team Members/   # Team profile photos
 └── 📝 README.md           # Project documentation
 ```
-
-## 🌐 Browser Support
-
-| Browser         | Status             |
-| --------------- | ------------------ | --------------------------------- |
-| Chrome          | ✅ Fully Supported | <i class="fab fa-chrome"></i>     |
-| Firefox         | ✅ Fully Supported | <i class="fab fa-firefox"></i>    |
-| Edge            | ✅ Fully Supported | <i class="fab fa-edge"></i>       |
-| Safari          | ✅ Fully Supported | <i class="fab fa-safari"></i>     |
-| Mobile Browsers | ✅ Fully Supported | <i class="fas fa-mobile-alt"></i> |
 
 ## 📜 License
 
