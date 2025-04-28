@@ -159,22 +159,25 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .logo img {
-    height: 50px;
-    margin-right: 10px;
+    height: 56px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .logo-text .main {
