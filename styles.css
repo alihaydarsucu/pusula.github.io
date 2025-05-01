@@ -298,13 +298,13 @@ a:hover {
     max-width: 500px;
     max-height: 500px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .about-image img {
     width: 100%;
     height: auto;
     transition: transform 0.5s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .about-image:hover img {
