@@ -15,6 +15,7 @@
     <header class="header" id="header">
         <div class="container">
             <nav class="navbar">
+
                 <div class="logo">
                     <img src="Images/Other Images/logo.png" alt="Pusula USV Takımı" />
                     <div class="logo-text">
@@ -22,6 +23,13 @@
                         <span class="sub">YOL VE YÖN</span>
                     </div>
                 </div>
+
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                
                 <ul class="nav-menu" id="nav-menu">
                     <li><a href="#hero" class="active">Ana Sayfa</a></li>
                     <li><a href="#about">Hakkımızda</a></li>
@@ -31,12 +39,48 @@
                     <li><a href="#sponsors">Sponsorlar</a></li>
                     <li><a href="#contact">İletişim</a></li>
                 </ul>
-                <div class="nav-toggle" id="nav-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
             </nav>
         </div>
     </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+        </div>
+        <div class="mobile-nav-links">
+            <a href="#hero">
+                <i class="fas fa-home"></i>
+                Ana Sayfa
+            </a>
+            <a href="#about">
+                <i class="fas fa-info-circle"></i>
+                Hakkımızda
+            </a>
+            <a href="#team">
+                <i class="fas fa-users"></i>
+                Ekibimiz
+            </a>
+            <a href="#projects">
+                <i class="fas fa-project-diagram"></i>
+                Projelerimiz
+            </a>
+            <a href="#achievements">
+                <i class="fas fa-trophy"></i>
+                Başarılarımız
+            </a>
+            <a href="#sponsors">
+                <i class="fas fa-handshake"></i>
+                Sponsorlar
+            </a>
+            <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                İletişim
+            </a>
+        </div>
+    </div>
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
