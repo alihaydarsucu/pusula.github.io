@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
     const navLinks = document.querySelectorAll('.mobile-nav-links a, .nav-menu a');
 
-    // Menü aç/kapa fonksiyonu
+    /**
+     * Toggles the visibility of the mobile menu and overlay, and enables or disables page scrolling accordingly.
+     */
     function toggleMobileMenu() {
         hamburger.classList.toggle('active');
         mobileMenu.classList.toggle('active');
@@ -13,7 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : 'auto';
     }
 
-    // Menüyü kapat fonksiyonu
+    /**
+     * Closes the mobile menu and overlay, restoring page scrolling.
+     */
     function closeMobileMenu() {
         hamburger.classList.remove('active');
         mobileMenu.classList.remove('active');
@@ -57,6 +61,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // ================= ACTIVE MENU ITEM TRACKING =================
     const sections = document.querySelectorAll('section');
 
+    /**
+     * Updates navigation link highlighting based on the currently viewed section.
+     *
+     * Adds the 'active' class to the navigation link whose href matches the section currently in view, and removes it from others. The current section is determined by comparing the scroll position to each section's offset from the top of the page.
+     */
     function updateActiveSection() {
         let current = '';
         sections.forEach(section => {
@@ -114,7 +123,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// ================= NUMBER INCREASE ANIMATION FUNCTION =================
+/**
+ * Animates a numeric value within an element from a start value to an end value over a specified duration.
+ * @param {Element} element - The DOM element whose text content will be updated.
+ * @param {number} start - The initial value to display.
+ * @param {number} end - The final value to display.
+ * @param {number} duration - The animation duration in milliseconds.
+ */
 function animateValue(element, start, end, duration) {
     let startTimestamp = null;
     const step = (timestamp) => {
