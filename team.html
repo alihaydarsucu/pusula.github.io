@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusula USV | Ekibimiz</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="Images/Other Images/icon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="Images/Other Images/logo.png" alt="Pusula USV Takımı" />
+                    <div class="logo-text">
+                        <span class="main"><a href="index.html" style="text-decoration: none; color: inherit;">P U S U L A</a></span>
+                        <span class="sub">YOL VE YÖN</span>
+                    </div>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="team.html" class="active">Ekibimiz</a></li>
+                    <li><a href="projects.html">Projelerimiz</a></li>
+                    <li><a href="sponsors.html">Sponsorlar</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Team Section -->
+    <section class="section" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ekibimiz</h2>
+                <p>Deniz teknolojileri alanında tutkuyla çalışan yetenekli genç mühendis adaylarımız</p>
+            </div>
+
+            <!-- Department Filter -->
+            <div class="team-filter">
+                <button class="filter-btn active" data-filter="all">Tüm Ekip</button>
+                <button class="filter-btn" data-filter="mechanical">Mekanik Ekibi</button>
+                <button class="filter-btn" data-filter="electronic">Elektronik Ekibi</button>
+                <button class="filter-btn" data-filter="software">Yazılım Ekibi</button>
+                <button class="filter-btn" data-filter="organization">Organizasyon Ekibi</button>
+            </div>
+
+            <div class="team-grid">
+                <!-- Mechanical Team -->
+                <div class="team-member" data-category="mechanical">
+                    <img src="Images/Team Members/nusret_eren_ozbek.jpg" alt="Nusret Eren Özbek" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Nusret Eren Özbek</h3>
+                        <p class="team-role">Takım Kaptanı</p>
+                        <p class="team-university">Gazi Üniversitesi - Makine Müh.</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/nusret-eren-%C3%B6zbek-116465216/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:ozbeknusreteren1@gmail.com" aria-label="mail-to"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member" data-category="mechanical">
+                    <img src="Images/Team Members/emirhan_beyribey.jpg" alt="Emirhan Beyribey" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Emirhan Beyribey</h3>
+                        <p class="team-role">Mekanik Birim Sorumlusu</p>
+                        <p class="team-university">Gazi Üniversitesi - Makine Müh.</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/emirhan-beyribey/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:emirhan.beyribey1@gmail.com" aria-label="mail-to"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electronic Team -->
+                <div class="team-member" data-category="electronic">
+                    <img src="Images/Team Members/cagatay_fatih_canli.jpeg" alt="Çağatay Fatih Canlı" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Çağatay Fatih Canlı</h3>
+                        <p class="team-role">Elektronik Birim Sorumlusu</p>
+                        <p class="team-university">AYBÜ - Elektrik-Elektronik Müh.</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/%C3%A7a%C4%9Fatay-fatih-canl%C4%B1-8194272a3/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:cagatayfatihcanli@gmail.com" aria-label="mail-to"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software Team -->
+                <div class="team-member" data-category="software">
+                    <img src="Images/Team Members/furkan_ahmet_karabulut.jpeg" alt="Furkan A. Karabulut" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Furkan A. Karabulut</h3>
+                        <p class="team-role">Yazılım Birim Sorumlusu</p>
+                        <p class="team-university">TED Üniversitesi - Yazılım Müh.</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/furkan-ahmet-karabulut-977412226/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:furkanahmet.karabulut@outlook.com" aria-label="mail-to"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organization Team -->
+                <div class="team-member" data-category="organization">
+                    <img src="Images/Team Members/ahmet_selman_catak.jpeg" alt="Ahmet Selman Çatak" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Ahmet Selman Çatak</h3>
+                        <p class="team-role">Organizasyon Birim Sorumlusu</p>
+                        <p class="team-university">TED Üniversitesi - Elektrik-Elektronik Müh.</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/ahmet-selman-%C3%A7atak-132879250/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advisor -->
+                <div class="team-member" data-category="organization">
+                    <img src="Images/Team Members/muhammed_balcı.jpeg" alt="Muhammed Feyzi Balcı" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Muhammed Feyzi Balcı</h3>
+                        <p class="team-role">Takım Danışmanı</p>
+                        <p class="team-university">Lead Engineer</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/muhammedbalci/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:blcmuhammed@hotmail.com" aria-label="mail-to"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="departments">
+                <h3 class="text-center">Birimlerimiz</h3>
+                <div class="dept-container">
+                    <div class="department">
+                        <div class="department-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Mekanik Ekibi</h3>
+                        <p>Mekanik ekibi, projelerin fiziksel yapısını tasarlayıp hareketli mekanizmalar geliştirir. İşlevsel ve yenilikçi çözümler üreterek sistemlerin montaj ve testlerini gerçekleştirir.</p>
+                    </div>
+
+                    <div class="department">
+                        <div class="department-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Elektronik Ekibi</h3>
+                        <p>Elektronik ekibi, projelerin donanım altyapısını tasarlayıp sensör entegrasyonu, devre tasarımı ve güç yönetimi yapar. Bileşen seçimi, montaj ve testlerle sistemlerin stabilitesini sağlar.</p>
+                    </div>
+
+                    <div class="department">
+                        <div class="department-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Yazılım Ekibi</h3>
+                        <p>Yazılım ekibi, projelerin algoritmik ve kontrol altyapısını geliştirir. Algoritmalar, kullanıcı arayüzleri ve otonom kontrol yazılımları tasarlayarak görüntü işleme, yapay zeka ve sensör analizi çözümleri sunar.</p>
+                    </div>
+
+                    <div class="department">
+                        <div class="department-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Organizasyon Ekibi</h3>
+                        <p>Organizasyon ekibi, projenin planlanması, yönetimi, dış ilişkileri ve sosyal medya çalışmalarından sorumludur. Takım içi iletişimi ve uyumu sağlar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <div class="logo-text" style="margin-bottom: 20px;">
+                        <span class="main">P U S U L A</span>
+                        <span class="sub">YOL VE YÖN</span>
+                    </div>
+                    <p>6 farklı üniversiteden elektrik-elektronik, makine, bilgisayar ve yazılım mühendisliği öğrencilerinin bir araya gelerek kurduğu Pusula USV Takımı, insansız deniz araçları geliştirme alanında faaliyetler göstermektedir.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="team.html">Ekibimiz</a></li>
+                        <li><a href="projects.html">Projelerimiz</a></li>
+                        <li><a href="sponsors.html">Sponsorlar</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> pusulausv@gmail.com</li>
+                        <li><i class="fab fa-linkedin"></i> linkedin.com/company/pusulausv/</li>
+                        <li><i class="fab fa-instagram"></i> @pusulausv</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pusula USV Takımı. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+
+        <a href="#" class="back-to-top" id="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
