@@ -1,9 +1,13 @@
 <div align="center">
   <img src="Images/Other Images/logo.png" alt="Pusula USV Logo" width="150"/>
-  <h3>YOL VE YÖN</h3>
 </div>
 
+<div align="center">
+
 # 🚢 Pusula USV - Official Website
+
+<h2>YOL VE YÖN</h2>
+</div>
 
 ![Pusula USV Banner](https://img.shields.io/badge/Pusula-USV-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
