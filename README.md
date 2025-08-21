@@ -6,7 +6,7 @@
 
 # 🚢 Pusula USV - Official Website
 
-<h2>YOL VE YÖN</h2>
+<h4>YOL VE YÖN</h4>
 </div>
 
 ![Pusula USV Banner](https://img.shields.io/badge/Pusula-USV-blue)
