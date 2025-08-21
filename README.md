@@ -94,7 +94,7 @@ pusula.github.io/
 
 ## 📜 License
 
-## This project is proprietary and maintained by Pusula USV Team. All rights reserved.
+This project is proprietary and maintained by Pusula USV Team. All rights reserved.
 
 ## 📬 Contact & Social Media
 
@@ -109,5 +109,7 @@ pusula.github.io/
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
 </div>
-
-  <p><strong>Made with ❤️ for Pusula USV Team</strong></p>
+<br>
+<div align="center">
+  <p>Made with ❤️ for Pusula USV Team</p>
+</div>
