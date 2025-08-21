@@ -1,14 +1,14 @@
-# 🚀 Pusula USV - Official Website
+<div align="center">
+  <img src="Images/Other Images/logo.png" alt="Pusula USV Logo" width="150"/>
+  <h3>YOL VE YÖN</h3>
+</div>
+
+# 🚢 Pusula USV - Official Website
 
 ![Pusula USV Banner](https://img.shields.io/badge/Pusula-USV-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
 ![Turkish](https://img.shields.io/badge/Language-Turkish-red)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
-<div align="center">
-  <img src="Images/Other Images/logo.png" alt="Pusula USV Logo" width="100"/>
-  <h3>YOL VE YÖN</h3>
-</div>
 
 🌊 The official website for **Pusula USV** (Unmanned Surface Vehicle) Team - an innovative student team of engineering candidates from 6 different universities, developing cutting-edge autonomous marine technologies.
 
@@ -88,22 +88,13 @@ pusula.github.io/
 └── 📝 README.md               # This documentation
 ```
 
-## �📜 License
+## 📜 License
 
-This project is proprietary and maintained by Pusula USV Team. All rights reserved.
-
-## � Acknowledgments
-
-- All team members for their dedication and hard work
-- Our sponsors for their valuable support
-- Universities for providing resources and guidance
-- Competition organizers for creating opportunities to showcase our work
-
----
+## This project is proprietary and maintained by Pusula USV Team. All rights reserved.
 
 ## 📬 Contact & Social Media
 
-<div align="center">
+<div>
   <a href="mailto:pusulausv@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
@@ -115,8 +106,4 @@ This project is proprietary and maintained by Pusula USV Team. All rights reserv
   </a>
 </div>
 
-<div align="center">
-  <br>
   <p><strong>Made with ❤️ for Pusula USV Team</strong></p>
-  <p><em>"YOL VE YÖN" - Path and Direction</em></p>
-</div>
